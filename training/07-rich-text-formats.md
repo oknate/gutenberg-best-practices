@@ -69,6 +69,8 @@ We need to wrap that in a function and then assign that to the `onClick` event o
 
 Now all that is left is adding a proper icon and a title to the `RichTextToolbarButton` and passing the `isActive` value to the `isActive` prop and we are done.
 
+Makesure to add `"rich-text-formats": "./includes/text-formats/index.js"` in your theme's package.json.
+
 ## Next steps
 
 1. Take a look at a more complex rich text format like the "text-color" format from core: [Text Color Rich Text Format](https://github.com/WordPress/gutenberg/blob/trunk/packages/format-library/src/text-color/index.js)
